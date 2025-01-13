@@ -2,7 +2,7 @@
 
 # Adopet
 
-Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria.
+Adopet é um aplicativo organizador de pets para adoção que permite cadastrar, listar, editar e deletar pets felinos, incluindo informações como nome e raça.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -27,11 +27,6 @@ Memoteca é um aplicativo organizador de pensamentos e frases que permite cadast
 `JSON Server`: Utilizado para simular um backend e facilitar o desenvolvimento e teste das operações CRUD.
 
 `CSS`: Utilizado para estilização da interface do aplicativo.
-
-
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
 
 ## 🛠️ Abrir e rodar o projeto
 
