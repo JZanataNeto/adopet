@@ -1,0 +1,64 @@
+{
+  "pets": [
+    {
+      "id": "1a2b",
+      "nome": "Mimi",
+      "raca": "Siamês"
+    },
+    {
+      "id": "2b3c",
+      "nome": "Joe",
+      "raca": "Birmanes"
+    },
+    {
+      "id": "3c4d",
+      "nome": "Luna",
+      "raca": "Persa"
+    },
+    {
+      "id": "4d5e",
+      "nome": "Max",
+      "raca": "Exotico"
+    },
+    {
+      "id": "5e6f",
+      "nome": "Simba",
+      "raca": "Maine Coon"
+    },
+    {
+      "id": "6f7g",
+      "nome": "Bella",
+      "raca": "Scottish Fold"
+    },
+    {
+      "id": "7g8h",
+      "nome": "Oscar",
+      "raca": "Bengal"
+    },
+    {
+      "id": "8h9i",
+      "nome": "Lola",
+      "raca": "Abissinio"
+    },
+    {
+      "id": "9i0j",
+      "nome": "Nina",
+      "raca": "Sphynx"
+    },
+    {
+      "id": "0j1k",
+      "nome": "Charlie",
+      "raca": "Americano"
+    },
+    {
+      "id": "1202",
+      "nome": "Miu",
+      "raca": "Siamês"
+    },
+    {
+      "id": "fa1a",
+      "nome": "Felix",
+      "raca": "Exotico"
+    }
+  ]
+}

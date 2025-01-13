@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navegacao">
+        <img src="/imagens/cat_12436017.svg" alt="Icon by UIcons" class="navegacao-imagem">
+        <h1 class="navegacao-title">Adopet</h1>
+        <a href="#" class="navegacao-botao">Adote</a>
+        <a href="#" class="navegacao-botao">Como ajudar</a>
+        <a href="#" class="navegacao-botao">AdoShop</a>
+        <a href="#" class="navegacao-botao">Contato</a>
+        <a href="#" class="navegacao-botao botao-doe">Doe</a>
+    </nav>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho-text">
+              <h1>Não compre,<br>adote um gatinho<br><strong>Seja doador.<br>Seja voluntário.</strong></h1>
+              <p class="cabecalho-contato">PIX: contato@adopet.org.br</p>
+            </div>
+            <img src="/imagens/joe.png" alt="foto do Joe" class="cabecalho-foto">  
+        </div>
+    </header>
+    <section class="about">
+        <div class="about-text">
+            <h2 class="about-title">Sobre a Adopet</h2>
+            <p class="about-paragrafo">O principal objetivo da Adopet é sensibilizar a sociedade sobre a adoção e posse responsável, por meio de ações efetivas como palestras e eventos. Todo nosso trabalho é realizado por uma equipe de voluntários dedicados e dispostos a fazer do mundo um lugar melhor para os gatinhos.</p>
+            <p class="cabecalho-contato">Conheça a nossa história</p>
+        </div>
+        <img src="/imagens/foto-1.png" alt="foto de felino">
+    </section>
+      <section id="form-container">
+        <h2>Adicione um felino para adoção:</h2>
+        <form id="pet-form">
+          <input type="hidden" id="pet-id" />
+          <label for="pet-conteudo">Nome do pet</label>
+          <textarea id="pet-conteudo" placeholder="Digite o nome" required></textarea>
+          <label for="pet-autoria">Raça</label>
+          <input type="text" id="pet-autoria" placeholder="Insira a raça"/>
+          <div class="form-botoes">
+            <button type="submit" id="botao-salvar">Salvar</button>
+            <button type="button" id="botao-cancelar">Cancelar</button>
+          </div>
+        </form>
+      </section>
+    <section id="lista-adocao">
+        <h3 class="cabecalho-contato">Adote um resgatinho</h3>
+        <div id="mensagem-vazia" class="mensagem-vazia">
+          <img src="imagens/lista-vazia.png" alt="Nenhum pet disponível">
+          <p>Nada por aqui ainda, acrescente um pet para doação</p>
+        </div>
+        <ul id="lista-resgatinho"></ul>
+    </section>
+    <section class="doe-pet">
+      <div class="doe-texto">
+        <h2>Faça uma doação</h2>
+        <p>Você pode nos ajudar a cuidar dos gatinhos adotando,<br>divulgando nosso trabalho ou doando produtos,<br>como ração, areia e remédios.</p>
+        <button type="button" id="botao-doar">Doe</button>
+      </div>
+      <img src="imagens/foto-2.png" alt="foto de felino">
+    </section>
+    <footer>
+      <p>&copy; 
+        2024 Desenvolvido por Alura. 
+        Projeto fictício sem fins comerciais. Aluno: João Zanata Neto</p>
+    </footer>
+      <script type="module" src="js/api.js"></script>
+      <script type="module" src="js/main.js"></script>
+      <script type="module" src="js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --Baby-blue: #DBE4EF;
+    --Azul-Dark: #041832;
+    --Cinza-claro: #EDF0F4;
+    --Cinza-medio: #8F8F8F;
+    --Cinza: #444;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  .navegacao {
+    background: var(--Baby-blue);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+  }
+
+  .navegacao-imagem {
+    width: 70px;
+    height: auto;
+  }
+
+  .navegacao-title {
+    font-size: 30px;
+  }
+
+  .navegacao-botao {
+    font-size: 24px;
+    color: var(--Azul-Dark);
+    text-decoration: none;
+  }
+
+  .botao-doe {
+    background: var(--Cinza-claro);
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background: #8F8F8F;
+  }
+
+  .cabecalho-text {
+    padding-left: 20%;
+    font-size: 40px;
+  }
+
+  .cabecalho-foto {
+    width: 20%;
+    height: auto;
+  }
+
+  .cabecalho-contato {
+    background: var(--Baby-blue);
+    text-align: center;
+    border-radius: 50px;
+    width: 550px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+
+  .about {
+    background: var(--Cinza-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .about-text {
+    width: 570px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+  }
+
+  .about-paragrafo {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .about img {
+    width: 330px;
+    height: 330px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  h2 {
+    color: var(--Azul-Dark, #041832);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #form-container {
+    display: flex;
+    padding: 48px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 8px 8px 20px 0px rgba(4, 24, 50, 0.08);
+    width: 100%;
+    max-width: 712px;
+    margin: 40px auto;
+  }
+
+  #pet-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #pet-conteudo, #pet-autoria {
+    padding: 16px;
+    border-radius: 8px;
+    background: var(--Cinza-claro, #EDF0F4);
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+  }
+
+  #pet-conteudo {
+    min-height: 80px;
+  }
+
+  #pet-form label {
+    margin-bottom: 16px;
+    color: var(--Azul-Dark, #041832);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #pet-conteudo::placeholder,  #pet-autoria::placeholder{
+    color: var(--Cinza-medio, #8F8F8F);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #pet-form textarea,
+  #pet-form input {
+    margin-bottom: 24px;
+    outline: none;
+    border-style: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .form-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 16px;
+  }
+
+  #botao-salvar, #botao-cancelar {
+    padding: 8px 32px;
+    border-radius: 32px;
+    color: var(--Baby-blue, #DBE4EF);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  #botao-salvar {
+    background: var(--Azul-Dark, #041832);
+    min-width: 160px;
+  }
+  #botao-cancelar {
+    color: var(--Azul-Dark, #041832);
+  }
+
+  #lista-adocao {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  #lista-resgatinho {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 32px;
+  }
+  .li-resgatinho {
+    position: relative;
+    padding: 16px;
+    background: var(--Branco, #FFF);
+    box-shadow: 8px 8px 0px 0px #154580;
+    flex: 1 1 calc(33.333% - 24px);
+    max-width: calc(33.333% - 24px);
+    min-width: 384px;
+    min-height: 315px; 
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 64px;
+    height: 50px;
+  }
+
+  .resgatinho-name, .resgatinho-raca {
+    margin-left: 20px; 
+    color: var(--Cinza, #444);
+    font-family: "Roboto Mono";
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 16px; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .resgatinho-name {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .resgatinho-raca {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .botao-editar, .botao-excluir {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .botao-editar img {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .botao-excluir img {
+    position: absolute;
+    bottom: 32px;
+    left: 62px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .mensagem-vazia {
+    display: none;
+    text-align: center;
+    color: var(--Azul-Dark, #041832);
+    margin-top: 40px;
+  }
+  
+  .mensagem-vazia img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .mensagem-vazia p {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  .doe-pet {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--Cinza-claro);
+    margin-top: 20px;
+  }
+
+  .doe-pet img {
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .doe-texto {
+    text-align: center;
+  }
+
+  .doe-texto h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .doe-texto p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #botao-doar {
+    background: var(--Baby-blue);
+    width: 100%;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 32px;
+    color: var(--Cinza);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  footer {
+    padding: 32px 360px;
+    background: #041832;
+    color: var(--Baby-blue, #DBE4EF);
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
