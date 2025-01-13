@@ -1,18 +1,18 @@
 ![Thumbnail](./thumb.png)
 
-# Memoteca
+# Adopet
 
 Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria.
 
 ## 🔨 Funcionalidades do projeto
 
-`Cadastro de pensamentos`: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.
+`Cadastro de pets`: Permite adicionar novos pets à lista, inserindo informações como nome e raça.
 
-`Listagem de pensamentos`: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.
+`Listagem de pets`: Exibe os pets cadastrados, permitindo visualizar o nome e a raça.
 
-`Edição de pensamentos`: Permite editar pensamentos existentes, atualizando as informações conforme necessário.
+`Edição de pets`: Permite editar pets existentes, atualizando as informações conforme necessário.
 
-`Exclusão de pensamentos`: Permite remover pensamentos da lista.
+`Exclusão de pets`: Permite remover pets da lista.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
